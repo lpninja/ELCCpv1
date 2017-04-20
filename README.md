@@ -2,6 +2,12 @@ These files are curently in Python 2.7 and should work natively on Raspberry Pi 
 
 ElectriCChain certification syntax for SLR Blockchain Tx messaging field.
 
+Updated 2017/04/20 Supports JSON. Please limit your Open comment to about 80 characters (half twitter).
+
+Example in SLR chain: http://chainz.cryptoid.info/slr/api.dws?q=txinfo&t=b391aa1bcb0aefd8e8f661b1acd6fd0b784c0e8856ed6c2d8546b6246d623ae8
+
+**Example: {"module": "ReneSola Solar CS6U-315", "inverter": "E-tracer ET3415", "pyranometer": "Aedilis Cloud Industries WCC200 sn 1915040004", "windsensor": "Delta Ohm LP PYRA 10", generation: [{"Period1": "2016-07-19-10-10-00-2019-07-19-11-10-00", "MWh": 10.000000}, {"Period2": "2016-07-19-11-10-00-2019-07-19-12-10-00", "MWh": 10.000010}], "Size kW": 0.25, "Web layer API": "sunpulse.cloud.industries.eu", "lat": "35.655N", "long": "139.698E", "Comment": "Hello World- I am the Ninja Node and the first on the ElectriCChain.", "IoT": "Hello renewable future!"}"""**
+
 This is to define the ELCC text space standard for ElectriCChain. For more information please see ElectriCChain.org.
 
 We want to certify components into the SLR blockchain. This means that if the component is in operation and confirmed in the field by a human, it can be added also by a human input. Otherwise this standard is designed to be working on IoT/Inverters, data-loggers as a python script.
