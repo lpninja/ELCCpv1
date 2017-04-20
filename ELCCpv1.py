@@ -6,24 +6,25 @@ __license__ = "The Unlicense"
 __version__ = "1.0"
 
 """This is the TXID standard. 
-Comment Component cert: 
-str ('Note this is all public information module maufacturer modelcode inverter maufacturer modelcode;
-data-logger maufacturer modelcode sn;
-sensor pyranometer modelcode sensor wind speed modelcode;
-sensor rain modelcode;
-sensor water flow modelcode; 
-sensor xx modelcode;
-Time period: 
-20XX-XX-XX-20XX-XX-XX
-Web layer API frontend: off chain name weblink login
-System size kW: X.XX
-Component latitude-longitude: 
-00.00000000N/S, 000.00000000E/W
-Comment 1: anything
-IoT Comment: The type of IoT running this py script.
+Comment Component cert in JSON: 
+{
+  "module": "manufacturer modelcode",
+  "inverter": "maufacturer modelcode", 
+  "data-logger": "maufacturer modelcode",
+  "pyranometer": "manufacturer modelcode",
+  "windsensor": "manufacturer modelcode",
+  "rainsensor": "manufacturer modelcode",
+  "waterflow": "manufacturer modelcode",
+  "generation": [
+    {"Period1": "20XX-XX-XX-HH-MM-SS-20XX-XX-XX-HH-MM-SS", "MWh": 1.000000}, 
+    {"Period2": "20XX-XX-XX-HH-MM-SS-20XX-XX-XX-HH-MM-SS", "MWh": 1.005000}
+    ],
+  "Web layer API": "off chain name weblink login",
+  "Size kW": X.XXX,
+  "lat": "00.000N/S",
+  "long": "000.000E/W",
+  "Comment": "anything",
+  "IoT": "The type of IoT running this py script"
+  }
 """
-"""Example: Note this is all public information ReneSola Solar CS6U-315 E-tracer ET3415 Aedilis Cloud Industries WCC200 sn 1915040004 Delta Ohm LP PYRA 10 2016-07-19-2019-07-19 0.25kW off chain sunpulse.cloud.industries.eu 35.6556177971N, 139.698872606E operation Hello World- I am the Ninja Node and the first on the ElectriCChain. Hello renewable future!"""
-
-print("Initiating SolarCoin")
-energylifetime = str('Note this is all public information '+solar_panel+'; '+solar_inverter+'; '+peak_watt+'kW ;'+latitude+','+longitude+'; '+message+'; '+rpi+'; Total MWh: {}' .format(total_energy)+'; )
-print("SolarCoin TXID:")
+"""Example: {"module": "ReneSola Solar CS6U-315", "inverter": "E-tracer ET3415", "pyranometer": "Aedilis Cloud Industries WCC200 sn 1915040004", "windsensor": "Delta Ohm LP PYRA 10", generation: [{"Period1": "2016-07-19-10-10-00-2019-07-19-11-10-00", "MWh": 10.000000}, {"Period2": "2016-07-19-11-10-00-2019-07-19-12-10-00", "MWh": 10.000010}], "Size kW": 0.25, "Web layer API": "sunpulse.cloud.industries.eu", "lat": "35.655N", "long": "139.698E", "Comment": "Hello World- I am the Ninja Node and the first on the ElectriCChain.", "IoT": "Hello renewable future!"}"""
