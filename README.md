@@ -24,7 +24,7 @@ Example in SLR chain: https://chainz.cryptoid.info/slr/tx.dws?b9ceac11c9e2c1998f
 
 **List of additions**
 
-Updated 2017/04/21- Added Elliptic curve cyptography standard for device identity based on the Chainofthings protocol to the Tx Message Space. More information [here]:-(https://www.chainofthings.com/).
+Updated 2017/04/21- Added Elliptic curve cyptography standard for device identity based on the Chainofthings protocol to the Tx Message Space. More information (here):-[https://www.chainofthings.com/].
 
 Updated 2017/04/20- Open comments reduced to 40 characters (one-quarter twitter). Updated example for SLR chain.
 
