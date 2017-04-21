@@ -1,3 +1,6 @@
+**OPEN standard for the Tx Message Space for IoT/blockchain interaction** 
+
+
 This is to define the ELCC text space standard for ElectriCChain/ blockchain IoT standard that is **portable across blockchains**. For more information please see ElectriCChain.org project no.3 or some of the work we are doing at chainofthings/solcrypto.
 
 We want to certify components into the blockchain TX message space. This means that if the component is in operation and confirmed in the field by a human, it can be added also by a human input. Otherwise this standard is designed to be working on IoT/Inverters, data-loggers as a python script that requests human input interactions at setup.
