@@ -21,4 +21,5 @@ Example in SLR chain: http://chainz.cryptoid.info/slr/api.dws?q=txinfo&t=b391aa1
 **List of additions**
 
 Updated 2017/04/20- Open comments reduced to 40 characters (one-quarter twitter).
+
 Updated 2017/04/20- Supports JSON. Please limit your Open comment to about 80 characters (half twitter).
