@@ -1,17 +1,18 @@
-This is to define the ELCC text space standard for ElectriCChain/ blockchain IoT standard that is **portable ACROSS blockchains**. For more information please see ElectriCChain.org project no.3.
+This is to define the ELCC text space standard for ElectriCChain/ blockchain IoT standard that is **portable across blockchains**. For more information please see ElectriCChain.org project no.3 or some of the work we are doing at chainofthings/solcrypto.
 
-We want to certify components into the blockchain TX message space. This means that if the component is in operation and confirmed in the field by a human, it can be added also by a human input. Otherwise this standard is designed to be working on IoT/Inverters, data-loggers as a python script.
-In addition, if we just want to certify the existance of a solar industry product, we can do that as well. 
-In addition, if we want to link a certain GPS anchored system into the SLR blockchain, we can do that too. We can see where it is and it links to off chain web layer web links. For privacy, if you want to certifiy your solar system you can limit the GPS decimal length to three characters.
+We want to certify components into the blockchain TX message space. This means that if the component is in operation and confirmed in the field by a human, it can be added also by a human input. Otherwise this standard is designed to be working on IoT/Inverters, data-loggers as a python script that requests human input interactions at setup.
 
-Later, API can be written to specifically search and scrape this Tx data. For example with Node-red.
+Additionally, if we just want to certify the existance of a solar industry product, we can do that as well. 
+Also, if we want to link a certain GPS anchored system into the SolarCoin blockchain, we can do that too. We can see where it is and it links to off chain web layer web links. For privacy, if you want to certifiy your solar system you can limit the GPS decimal length to three characters.
+
+API's can be written to specifically search and scrape this Tx data. For example with Node-red calling JSON requests.
 
 This is also designed to work with the SolarCoin granting Engine. This will need to link with the existance of the module and components in the SolarCoin blockchain. And then it can assign a unique GUID, use the SolarCoin blockchain (or **any other blockchain** as a immutable ledger for other programs to search this ledger and grant rewards, or mine information about weather, climates, power generation etc.)
 
 **Specifics**
 These files are curently in Python 2.7 and should work natively on Raspberry Pi 2/3 with Raspian-lite/ ROKOS.
 
-ElectriCChain certification syntax for SLR Blockchain Tx messaging field.
+ElectriCChain certification syntax for SLR Blockchain Tx messaging field which is limited to 516 characters.
 
 Example in SLR chain: http://chainz.cryptoid.info/slr/api.dws?q=txinfo&t=b391aa1bcb0aefd8e8f661b1acd6fd0b784c0e8856ed6c2d8546b6246d623ae8
 
@@ -19,4 +20,5 @@ Example in SLR chain: http://chainz.cryptoid.info/slr/api.dws?q=txinfo&t=b391aa1
 
 **List of additions**
 
+Updated 2017/04/20- Open comments reduced to 40 characters (one-quarter twitter).
 Updated 2017/04/20- Supports JSON. Please limit your Open comment to about 80 characters (half twitter).
