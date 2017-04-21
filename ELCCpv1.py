@@ -8,9 +8,10 @@ __version__ = "1.2"
 """This is the TXID standard. 
 Comment Component cert in JSON: 
 {
-  "module": "manufacturer modelcode",
+   "module": "manufacturer modelcode",
   "inverter": "maufacturer modelcode", 
   "data-logger": "maufacturer modelcode",
+  "data-logger-ECDHE-Pub": "Public key Hardware generated ID birth certificate", 
   "pyranometer": "manufacturer modelcode",
   "windsensor": "manufacturer modelcode",
   "rainsensor": "manufacturer modelcode",
