@@ -3,7 +3,7 @@
 __author__ = "Luke Johnson AKA lpninja"
 __copyright__ = "Copyright 2016, Luke Johnson"
 __license__ = "The Unlicense"
-__version__ = "1.0"
+__version__ = "1.2"
 
 """This is the TXID standard. 
 Comment Component cert in JSON: 
