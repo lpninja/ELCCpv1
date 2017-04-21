@@ -24,7 +24,7 @@ Comment Component cert in JSON:
   "lat": "00.000N/S",
   "long": "000.000E/W",
   "Comment": "anything up to 40 characters",
-  "IoT": "The type of IoT running this py script luke RPi3b, RPi2 etc."
+  "IoT": "The type of IoT running this py script e.g. RPi3b, RPi2 etc."
   }
 """
 """Example: {"module": "ReneSola Solar CS6U-315", "inverter": "E-tracer ET3415", "pyranometer": "Aedilis Cloud Industries WCC200 sn 1915040004", "windsensor": "Delta Ohm LP PYRA 10", generation: [{"Period1": "2016-07-19-10-10-00-2019-07-19-11-10-00", "MWh": 10.000000}, {"Period2": "2016-07-19-11-10-00-2019-07-19-12-10-00", "MWh": 10.000010}], "Size kW": 0.25, "Web layer API": "sunpulse.cloud.industries.eu", "lat": "35.655N", "long": "139.698E", "Comment": "Hello World- I am the Ninja Node and the first on the ElectriCChain.", "IoT": "Hello renewable future!"}"""
