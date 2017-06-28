@@ -3,7 +3,7 @@
 __author__ = "Luke Johnson AKA lpninja lp@solcrypto.com"
 __copyright__ = "Copyright 2016, Luke Johnson"
 __license__ = "The Unlicense"
-__version__ = "1.3"
+__version__ = "1.4"
 
 """This is the TXID standard. 
 Comment Component cert in JSON: 
@@ -11,7 +11,7 @@ Comment Component cert in JSON:
    "module": "manufacturer modelcode",
   "inverter": "maufacturer modelcode", 
   "data-logger": "maufacturer modelcode",
-  """data-logger-ECDHE-Pub": "Public key Hardware generated ID birth certificate", 
+  """Elliptic curve cryptography hashing is currently commented out because we need to keep the TX Message space less than 512 Characters, data-logger-ECDHE-Pub": "Public key Hardware generated ID birth certificate", 
   "pyranometer": "manufacturer modelcode",
   "windsensor": "manufacturer modelcode",
   "rainsensor": "manufacturer modelcode",
