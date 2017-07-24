@@ -9,7 +9,7 @@ __version__ = "1.5"
 Comment Component cert in JSON: 
 {
   "UserID": "SolarCoin affiliate website, or blockpass User ID",
-  """The UserID is linked to the appropriate solarcoin affiliate websites UserID, or a third-party service such as blockpass."""
+  """The UserID is linked to the appropriate solarcoin affiliate websites UserID, or a third-party service such as blockpass, any third party can implement their ID system up to 40 Characters."""
   "module": "manufacturer modelcode",
   "inverter": "maufacturer modelcode", 
   "data-logger": "maufacturer modelcode",
