@@ -20,7 +20,7 @@ ElectriCChain certification syntax for SLR Blockchain Tx messaging field which i
 
 Example in SLR chain: https://chainz.cryptoid.info/slr/tx.dws?b9ceac11c9e2c1998f95897bea3f5545d019ed1727ac9cf46a31d8a7843eb32e.htm
 
-**Example: {"module": "ReneSola Solar CS6U-315", "inverter": "E-tracer ET3415", "pyranometer": "Aedilis Cloud Industries WCC200 sn 1915040004", "windsensor": "Delta Ohm LP PYRA 10", generation: [{"Period1": "2016-07-19-10-10-00-2019-07-19-11-10-00", "MWh": 10.000000}, {"Period2": "2016-07-19-11-10-00-2019-07-19-12-10-00", "MWh": 10.000010}], "Size kW": 0.25, "Web layer API": "sunpulse.cloud.industries.eu", "lat": "35.655N", "long": "139.698E", "Comment": "Hello World- I am the Ninja Node and the first on the ElectriCChain.", "IoT": "Hello renewable future!"}"""**
+**"""Example: {"UserID": "009mx87m543567nqnnbvcdretyupam3mmmwiqw4r","module":"Solarworld Sunmodule Plus SW 265 mono black SW-01-6023US","inverter":"Enphase M250 Microinverter 800-00181-r06","data-logger":"","data-logger-ECDHE-Pub":"","pyranometer":"","windsensor":"","rainsensor":"","waterflow":"","Web_layer_API":"","Size_kW":"3.975","lat":"51.678N","long":"0.301E","Comment":"Hello World- I am the first Raspberry Pi Node","IoT":"RPI 2b, static, solar powered","generation":"2017-04-20-14-10-25-2017-04-20-14-15-27","MWh":"9.046878"}"""**
 
 **List of additions**
 
