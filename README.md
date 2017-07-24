@@ -26,6 +26,8 @@ Example in SLR chain: https://chainz.cryptoid.info/slr/tx.dws?b9ceac11c9e2c1998f
 
 Updated 2017/04/21- Added elliptical curve cryptography standard for device identity based on the Chain of things protocol to the Tx Message Space. More information (here):-[https://www.chainofthings.com/]. Currently this option isn't working because it is commented out. The ECHDE public fingerprint is too long. We are looking for a way around this.
 
+Updated 2017/07/24- We had to allow a space for a solarcoin affiliate website's user ID, the user ID is currently open and it can be used up to 40 characters.
+
 Updated 2017/04/20- Open comments reduced to 40 characters (one-quarter twitter). Updated example for SLR chain.
 
 Updated 2017/04/20- Supports JSON. Please limit your Open comment to about 80 characters (half twitter).
