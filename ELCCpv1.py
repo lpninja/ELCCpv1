@@ -3,13 +3,13 @@
 __author__ = "Luke Johnson AKA lpninja lp@solcrypto.com"
 __copyright__ = "Copyright 2016, Luke Johnson"
 __license__ = "The Unlicense"
-__version__ = "1.5"
+__version__ = "1.6"
 
 """This is the TXID standard. 
 Comment Component cert in JSON: 
 {
   "UserID": "SolarCoin affiliate website, or blockpass User ID",
-  """The UserID is linked to the appropriate solarcoin affiliate websites UserID, or a third-party service such as blockpass, any third party can implement their ID system up to 40 Characters."""
+  """The UserID is linked to the appropriate solarcoin affiliate websites UserID, or a third-party service such as blockpass.org, any third party can implement their ID system up to 40 Characters."""
   "module": "manufacturer modelcode",
   "inverter": "maufacturer modelcode", 
   "data-logger": "maufacturer modelcode",
@@ -25,8 +25,7 @@ Comment Component cert in JSON:
   "Size kW": X.XXX,
   "lat": "00.000N/S",
   "long": "000.000E/W",
-  "Comment": "anything up to 40 characters",
-  "IoT": "The type of IoT running this py script e.g. RPi3b, RPi2 etc."
-  }
+  "Comment": "anything up to 40 characters, The type of IoT running this py script e.g. RPi3b, RPi2 etc.",
+   }
 """
 """Example: {"UserID": "009mx87m543567nqnnbvcdretyupam3mmmwiqw4r","module":"Solarworld Sunmodule Plus SW 265 mono black SW-01-6023US","inverter":"Enphase M250 Microinverter 800-00181-r06","data-logger":"","pyranometer":"","windsensor":"","rainsensor":"","waterflow":"","Web_layer_API":"","Size_kW":"3.975","lat":"51.678N","long":"0.301E","Comment":"Hello World- I am the first Raspberry Pi Node","IoT":"RPI 2b, static, solar powered","generation":"2017-04-20-14-10-25-2017-04-20-14-15-27","MWh":"9.046878"}"""
