@@ -20,9 +20,10 @@ ElectriCChain certification syntax for SLR Blockchain Tx messaging field which i
 
 Example in SLR chain: https://chainz.cryptoid.info/slr/tx.dws?b9ceac11c9e2c1998f95897bea3f5545d019ed1727ac9cf46a31d8a7843eb32e.htm
 
-**"""Example: {"UserID": "009mx87m543567nqnnbvcdretyupam3mmmwiqw4r","module":"Solarworld Sunmodule Plus SW 265 mono black SW-01-6023US","inverter":"Enphase M250 Microinverter 800-00181-r06","data logger":"","pyranometer":"","windsensor":"","rainsensor":"","waterflow":"","Web_layer_API":"","Size_kW":"3.975","lat":"51.678N","long":"0.301E","Comment":"Hello World- I am the first Raspberry Pi Node","IoT":"RPI 2b, static, solar powered","generation":"2017-04-20-14-10-25-2017-04-20-14-15-27","MWh":"9.046878"}"""**
+**"""Example: {"UserID": "009mx87m543567nqnnbvcdretyupam3mmmwiqw4r","module":"Solarworld Sunmodule Plus SW 265 mono black SW-01-6023US","inverter":"Enphase M250 Microinverter 800-00181-r06","data logger":"","pyranometer":"","windsensor":"","rainsensor":"","Web_layer_API":"","Size_kW":"3.975","lat":"51.678N","long":"0.301E","Comment":"up to 40 characters generally about IOT used","generation":"2017-04-20-14:10:25-2017-04-20-14:15:27","MWh":"9.046878"}"""**
 
 **List of additions**
+Updated 2017/09/11- 12- Removed the water flow sensor, changed the time format from XX-XX-XX to XX:XX:XX for hours:minutes:seconds. Added some general comments to make things clearer. Reduced the Comment space to a maximum of 40 characters. Usually in the comment space you can comment on what IOT you are running the .py script on.
 
 Updated 2017/07/24- We had to allow a space for a solarcoin affiliate website's user ID, the user ID is currently open and it can be used up to 40 characters.
 
