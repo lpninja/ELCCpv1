@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """ELCCpv1.py: Sets the ElectriCChain standard syntax for the TXID space in the blockchain comments for connecting Solar PV inverters and data-loggers to the blockchain. Works with any blockchain running a daemon and having space to add a text comment only limited by the number of text characters. """
 __author__ = "Luke Johnson AKA lpninja lp@solcrypto.com"
-__copyright__ = "Copyright 2016, Luke Johnson"
+__copyright__ = "Copyright 2017, Luke Johnson"
 __license__ = "The Unlicense"
 __version__ = "1.7"
 
