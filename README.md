@@ -20,11 +20,16 @@ ElectriCChain certification syntax for SLR Blockchain Tx messaging field which i
 
 Example in SLR chain: https://chainz.cryptoid.info/slr/tx.dws?b9ceac11c9e2c1998f95897bea3f5545d019ed1727ac9cf46a31d8a7843eb32e.htm
 
-There are two types of in-chain datalogs. The sysv1 instance and and ongoing instance.
+There are two types of in-chain datalogs. The sysv1 instance and and ongoing instance (genv1).
 
 **"""Example: sysv1{"UID":"7859bc519a67977e06d5e9d58860ab0546f65a29","module":"Solarworld Sunmodule Plus SW 265 mono black SW-01-6023US","inverter":"Enphase M250 Microinverter 800-00181-r06","data-logger":"","pyranometer":"","windsensor":"","rainsensor":"","waterflow":"","Web_layer_API":"","Size_kW":"3.975","lat":"51.678N","long":"0.301E","Comment":"Hello World- I am the first Raspberry Pi Node"}"""**
 
+The genv1 instance is for ongoing generation.
+**"""Example: genv1{"UID":"7859bc519a67977e06d5e9d58860ab0546f65a29","t0":"2017-09-24 16:13:57","MWh0":11.358824,"t1":"2017-09-24 16:50:12","MWh1":11.358953,"t2":"2017-09-24 17:26:26","MWh2":11.358986,"t3":"2017-09-25 06:43:19","MWh3":11.359,"t4":"2017-09-25 07:19:33","MWh4":11.359062,"t5":"2017-09-25 07:55:46","MWh5":11.359141,"t6":"2017-09-25 08:31:59","MWh6":11.359224,"t7":"2017-09-25 09:08:13","MWh7":11.359468,"t8":"2017-09-25 09:44:26","MWh8":11.359678,"t9":"2017-09-25 10:20:41","MWh9":11.360017}"""**
+
 **List of additions**
+Updated 2017/09/26- Megred pull request for split generation and datalogs for sysv1 anf genv1 instances. See examples above.
+
 Updated 2017/09/11- 12- Removed the water flow sensor, changed the time format from XX-XX-XX to XX:XX:XX for hours:minutes:seconds. Added some general comments to make things clearer. Reduced the Comment space to a maximum of 40 characters. Usually in the comment space you can comment on what IOT you are running the .py script on.
 
 Updated 2017/07/24- We had to allow a space for a solarcoin affiliate website's user ID, the user ID is currently open and it can be used up to 40 characters.
