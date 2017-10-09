@@ -11,9 +11,8 @@ sysv1{
 """'sys' denotes the following JSON string contains details about the system logging the data, 'v1' allows for version control and changes to future datalogging syntax"""
   "UID":"SolarCoin affiliate website, or blockpass User ID",
   """The UserID is linked to the appropriate solarcoin affiliate websites UserID, or a third-party service protocol such as blockpass.org, any third party can implement their ID system up to 40 Characters."""
-  "tilt":"tilt angle of the solar panels in degrees to the surface horizontal of the mounting plane.",
-  "azimuth":"azimuth angle of the solar panels in degrees (0-180), with 0 be magnetic N in the Northern hemisphere.",
-  "tracking":"Type of mounting system used commented as fixed (no tracking), single or dual."
+  "tilt":"tilt angle of the solar panels in degrees to the surface horizontal of the mounting plane, or 'tracked' for systems with tracking.",
+  "azimuth":"azimuth angle of the solar panels in degrees (0-180), with 0 be magnetic N in the Northern hemisphere, or 'tracked' for systems with tracking.",
   "module":"manufacturer modelcode",
   "inverter":"maufacturer modelcode", 
   "data-logger":"maufacturer modelcode",
@@ -32,7 +31,7 @@ sysv1{
   "Comment":"anything up to 40 characters, The type of IoT running this py script e.g. RPi3b, RPi2, OdroidXU4 etc.",
    }
 """
-"""Example: sysv1{"UID":"7859bc519a67977e06d5e9d58860ab0546f65a29","tilt":"40", "azimuth":"180", "tracking":"fixed", "module":"Solarworld Sunmodule Plus SW 265 mono black SW-01-6023US","inverter":"Enphase M250 Microinverter 800-00181-r06","data-logger":"","pyranometer":"","windsensor":"","rainsensor":"","waterflow":"","Web_layer_API":"","Size_kW":"3.975","lat":"51.678N","long":"0.301E","Comment":"Hello World- I am the first Raspberry Pi Node"}"""
+"""Example: sysv1{"UID":"7859bc519a67977e06d5e9d58860ab0546f65a29","tilt":"40", "azimuth":"180", "module":"Solarworld Sunmodule Plus SW 265 mono black SW-01-6023US","inverter":"Enphase M250 Microinverter 800-00181-r06","data-logger":"","pyranometer":"","windsensor":"","rainsensor":"","waterflow":"","Web_layer_API":"","Size_kW":"3.975","lat":"51.678N","long":"0.301E","Comment":"Hello World- I am the first Raspberry Pi Node"}"""
 
 Generation cert in JSON:
   genv1
