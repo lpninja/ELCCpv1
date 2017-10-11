@@ -12,7 +12,7 @@ sysv1{
   "UID":"SolarCoin affiliate website, or blockpass User ID",
   """The UserID is linked to the appropriate solarcoin affiliate websites UserID, or a third-party service protocol such as blockpass.org, any third party can implement their ID system up to 40 Characters."""
   "tilt":"tilt angle of the solar panels in degrees to the surface horizontal of the mounting plane, or 'tracked' for systems with tracking.",
-  "azimuth":"azimuth angle of the solar panels in degrees (0-180), with 0 be magnetic N in the Northern hemisphere, or 'tracked' for systems with tracking.",
+  "azimuth":"azimuth angle of the solar panels in degrees (0-359), with 0 be magnetic North in the Northern hemisphere, 180 degrees is magnetic South and 'tracked' for systems with tracking.",
   "module":"manufacturer modelcode",
   "inverter":"maufacturer modelcode", 
   "data-logger":"maufacturer modelcode",
