@@ -1,5 +1,12 @@
 **OPEN standard for the Tx Message Space for IoT/blockchain interaction** 
 
+**Dependencies**
+There is an optional dependency of datalogger.py if you are using an Enphase system.
+You can fork datalogger.py and make your own version for other inverter/datalogger APIs.
+ELCC/Enphase/datalogger.py
+
+**Introduction**
+
 This is to define the ELCC text space standard for ElectriCChain/ blockchain IoT standard that is **portable across blockchains**. For more information please see ElectriCChain.org project no.3 or some of the work we are doing at chainofthings/solcrypto.
 
 We want to certify components into the blockchain TX message space. This means that if the component is in operation and confirmed in the field by a human, it can be added also by a human input. Otherwise this standard is designed to be working on IoT/Inverters, data-loggers as a python script that requests human input interactions at setup.
@@ -28,6 +35,7 @@ The genv1 instance is for ongoing generation.
 **"""Example: genv1{"UID":"14dac6fffd768ee96250acd8bd0ff55eae03eae5","t0":"2017-10-09 15:00:30","MWh0":11.490584,"t1":"2017-10-09 15:15:34","MWh1":11.490653,"t2":"2017-10-09 15:31:07","MWh2":11.490673,"t3":"2017-10-09 15:45:40","MWh3":11.490693,"t4":"2017-10-09 16:00:14","MWh4":11.49071,"t5":"2017-10-09 16:15:48","MWh5":11.490718,"t6":"2017-10-09 16:30:50","MWh6":11.490725,"t7":"2017-10-09 16:45:23","MWh7":11.490731}Sig:IGLDDNxi/GEljzT1xyf6+6Y8kuQAwEcllWZkaUBeNfWSgaM8E7OYs4uZBXbDsJysCQY98Ik1fSSpexPpKAwaLTI="""**
 
 **List of additions**
+
 Updated 2017/10/12- Merged a pull request for optional system signature signing for greater security when posting from a Raspberry Pi datalogger directly. Updated examples. ELCCpv1 now has an optional dependency of datalogger.py found in the ELCC folder of @scalextrix.
 
 Updated 2017/10/10- Merged pull request for removing tracking, explained the azimuth conditions in a comment. Added @dommsko as a contributer, reviewer.
