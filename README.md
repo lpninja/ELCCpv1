@@ -1,6 +1,7 @@
 **OPEN standard for the Tx Message Space for IoT/blockchain interaction** 
 
 **Dependencies**
+
 There is an optional dependency of datalogger.py if you are using an Enphase system.
 You can fork datalogger.py and make your own version for other inverter/datalogger APIs.
 ELCC/Enphase/datalogger.py
