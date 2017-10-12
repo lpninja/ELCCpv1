@@ -22,7 +22,7 @@ Example in SLR chain: https://chainz.cryptoid.info/slr/tx.dws?b9ceac11c9e2c1998f
 
 There are two types of in-chain datalogs. The sysv1 instance and and ongoing instance (genv1).
 
-**"""Example: sysv1{"UID":"7859bc519a67977e06d5e9d58860ab0546f65a29","tilt":"40", "azimuth":"180", "module":"Solarworld Sunmodule Plus SW 265 mono black SW-01-6023US","inverter":"Enphase M250 Microinverter 800-00181-r06","data-logger":"","pyranometer":"","windsensor":"","rainsensor":"","waterflow":"","Web_layer_API":"","Size_kW":"3.975","lat":"51.678N","long":"0.301E","Comment":"Hello World- I am the first Raspberry Pi Node"}"""**
+**"""Example: text:sysv1{"UID":"14dac6fffd768ee96250acd8bd0ff55eae03eae5","SigAddr":"8HZUxJZb2dBmhiMtXhBzNETqBj9NWotxUv","module":"Solarworld Sunmodule Plus SW 265 mono black SW-01-6023US","tilt":"50","azimuth":"210","inverter":"Enphase M250 Microinverter 800-00181-r06","data-logger":"Raspberry Pi2b","pyranometer":"","windsensor":"","rainsensor":"","Web layer API":"","Size_kW":"3.975","lat":"51.678N","long":"0.301E","Comment":"I am the first Raspberry Pi Node"}Sig:IDRMXcpAgHzoVSHFINS0YLx73wtrfMA0AatpbPqdKilQ9kbJM9eAfN3wDpctXpmsewrgGOA2efvpi5fT7gq8h7w="""**
 
 The genv1 instance is for ongoing generation.
 **"""Example: genv1{"UID":"7859bc519a67977e06d5e9d58860ab0546f65a29","t0":"2017-09-24 16:13:57","MWh0":11.358824,"t1":"2017-09-24 16:50:12","MWh1":11.358953,"t2":"2017-09-24 17:26:26","MWh2":11.358986,"t3":"2017-09-25 06:43:19","MWh3":11.359,"t4":"2017-09-25 07:19:33","MWh4":11.359062,"t5":"2017-09-25 07:55:46","MWh5":11.359141,"t6":"2017-09-25 08:31:59","MWh6":11.359224,"t7":"2017-09-25 09:08:13","MWh7":11.359468,"t8":"2017-09-25 09:44:26","MWh8":11.359678,"t9":"2017-09-25 10:20:41","MWh9":11.360017}"""**
