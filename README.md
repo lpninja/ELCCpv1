@@ -26,7 +26,7 @@ ROKOS is a Jessie 8 variant for Linux specifically running and designed for IoT/
 
 ElectriCChain certification syntax for SLR Blockchain Tx messaging field which is limited to 516 characters.
 
-Example in SLR chain: https://chainz.cryptoid.info/slr/tx.dws?b9ceac11c9e2c1998f95897bea3f5545d019ed1727ac9cf46a31d8a7843eb32e.htm
+Example in SLR chain: https://chainz.cryptoid.info/slr/tx.dws?3329045.htm
 
 There are two types of in-chain datalogs. The sysv1 instance and and ongoing instance (genv1).
 
@@ -37,7 +37,7 @@ The genv1 instance is for ongoing generation.
 
 **List of additions**
 
-Updated 2017/10/12- Merged a pull request for optional system signature signing for greater security when posting from a Raspberry Pi datalogger directly. Updated examples. ELCCpv1 now has an optional dependency of datalogger.py found in the ELCC folder of @scalextrix.
+Updated 2017/10/12- Merged a pull request for optional system signature signing for greater security(concatenation of system details and inverter/datalogger serial numbers with the datalogger public key hash to produce a new signature hash) when posting from a Raspberry Pi datalogger directly. Updated examples. ELCCpv1 now has an optional dependency of datalogger.py found in the ELCC folder of @scalextrix.
 
 Updated 2017/10/10- Merged pull request for removing tracking, explained the azimuth conditions in a comment. Added @dommsko as a contributer, reviewer.
 
