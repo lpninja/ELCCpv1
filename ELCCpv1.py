@@ -4,6 +4,7 @@ __author__ = "lpninja lp@solcrypto.com"
 __copyright__ = "Copyright 2017, Luke Johnson"
 __license__ = "The Unlicense"
 __version__ = "2.0"
+__comment__= "無"
 
 """This is the TXID standard. 
 Comment Component cert in JSON: 
