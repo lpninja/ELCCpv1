@@ -1,5 +1,8 @@
 **OPEN standard for the Tx Message Space for IoT/blockchain interaction** 
 
+This standard is maintained by ELECTRICCHAIN. (www.electricchain.org) 
+If you want to be **certified to implement this on your datalogger to receive solarcoin** please contact electricchain.org.
+
 **Dependencies**
 
 There is an optional dependency of datalogger.py if you are using an Enphase system.
