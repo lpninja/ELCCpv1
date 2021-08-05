@@ -59,3 +59,8 @@ Updated 2017/04/21- Added elliptical curve cryptography standard for device iden
 Updated 2017/04/20- Open comments reduced to 40 characters (one-quarter twitter). Updated example for SLR chain.
 
 Updated 2017/04/20- Supports JSON. Please limit your Open comment to about 80 characters (half twitter).
+
+CLOSED 2021/05
+
+The SLR blockchain has been integrated into the Energy Web Foundations chain.
+Although some of the ideas can be ported over, the framework has changed. Hence why we have closed this issue.
